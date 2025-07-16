@@ -6,43 +6,60 @@ body {
 
 header {
     background-color: #1F2937;
+    padding: 10px 0
+}
+
+.header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 150px;
+    padding: 0 5vw;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 h1 {
     font-size: 24px;
     font-weight: 900;
     color: #F9faf8;
-    margin: 0;
+    margin: 0
 }
 
 .intro {
     background-color: #1F2937;
-    padding: 100px 150px;
+    padding: 100px 0
+}
+
+.intro-wrapper {
     display: flex;
-    gap: 50px
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .text-content h2 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin: 0
+    margin: 0;
+    max-width: 300px
 }
 
 .intro-subtext {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 0
+    margin: 0;
+    font-weight: 300;
 }
 
 .text-content {
     display: flex;
     flex-direction: column;
     text-align: start;
+    max-width: 400px
 }
 
 ul {
@@ -59,8 +76,9 @@ a {
 }
 
 .intro img {
-    width: 700px;
-    height: 300px
+    max-width: 600px;
+    max-height: 300px;
+    width: 100%;
 }
 
 .button1 button {
@@ -69,7 +87,7 @@ a {
     border-radius: 8px;
     padding: 8px 16px;
     color: white;
-    margin-top: 10px
+    margin: 10px 0 10px 0
 }
 
 .random-info {
