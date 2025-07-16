@@ -74,26 +74,99 @@ a {
     margin-top: 10px
 }
 
+.random-info {
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+}
+
 .random-info h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    text-align: center;
-}
-
-.card {
-    border: 2px solid #3882f6;
-    text-align: center;
-    padding: 10px;
-    flex: 1
+    margin: 20px;
 }
 
 .card img {
     width: 150px;
     height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px
 }
 
 .info-cards {
     display: flex;
     justify-content: center;
+    text-align: center;
+    gap: 20px
+}
+
+.quote {
+    background-color: #e5e7eb;
+    margin: 40px 0
+}
+
+blockquote {
+    padding: 80px 150px;
+    margin: 0 auto;
+    max-width: 700px
+}
+
+blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    text-align: center;
+    margin: 0
+}
+
+cite {
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.action {
+    background-color: #3882f6;
+    color: white;
+    margin: 50px 150px;
+    padding: 30px 90px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.action p {
+    margin: 5px 0 0 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.button2 button{
+    border: solid white 2px;
+    border-radius: 4px;
+    background-color: #3882f6;
+    color: white
+}
+
+footer {
+    background-color: #1F2937;
+    margin: 0;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 20px 0
 }
