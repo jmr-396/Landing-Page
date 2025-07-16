@@ -1,0 +1,99 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9faf8;
+    margin: 0;
+}
+
+.intro {
+    background-color: #1F2937;
+    padding: 100px 150px;
+    display: flex;
+    gap: 50px
+}
+
+.text-content h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0
+}
+
+.intro-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color:#aeaeae;
+    font-size: 16px
+}
+
+.intro img {
+    width: 700px;
+    height: 300px
+}
+
+.button1 button {
+    background: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: white;
+    margin-top: 10px
+}
+
+.random-info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid #3882f6;
+    text-align: center;
+    padding: 10px;
+    flex: 1
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+}
