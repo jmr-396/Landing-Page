@@ -2,8 +2,6 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
@@ -97,7 +95,6 @@ a {
 .info-cards {
     display: flex;
     justify-content: center;
-    text-align: center;
     gap: 20px
 }
 
